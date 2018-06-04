@@ -15,6 +15,7 @@
 		89235A2820C1CC7200841A64 /* Swift_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89235A2720C1CC7200841A64 /* Swift_SampleTests.swift */; };
 		89235A3320C1CC7200841A64 /* Swift_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89235A3220C1CC7200841A64 /* Swift_SampleUITests.swift */; };
 		89235A4120C1F42C00841A64 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89235A4020C1F42C00841A64 /* PreviewViewController.swift */; };
+		89A7DB4720C540C200FE0DF4 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7DB4620C540C200FE0DF4 /* CropViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		89235A3220C1CC7200841A64 /* Swift_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_SampleUITests.swift; sourceTree = "<group>"; };
 		89235A3420C1CC7200841A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89235A4020C1F42C00841A64 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		89A7DB4620C540C200FE0DF4 /* CropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				89235A1220C1CC7000841A64 /* AppDelegate.swift */,
 				89235A1420C1CC7000841A64 /* ViewController.swift */,
 				89235A1620C1CC7000841A64 /* Main.storyboard */,
+				89A7DB4620C540C200FE0DF4 /* CropViewController.swift */,
 				89235A4020C1F42C00841A64 /* PreviewViewController.swift */,
 				89235A1920C1CC7200841A64 /* Assets.xcassets */,
 				89235A1B20C1CC7200841A64 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				89235A1520C1CC7000841A64 /* ViewController.swift in Sources */,
 				89235A1320C1CC7000841A64 /* AppDelegate.swift in Sources */,
+				89A7DB4720C540C200FE0DF4 /* CropViewController.swift in Sources */,
 				89235A4120C1F42C00841A64 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

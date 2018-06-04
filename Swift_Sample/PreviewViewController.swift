@@ -24,16 +24,20 @@ class PreviewViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    // CancelボタンのAction：dismissして戻る
     @IBAction func cancelButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    // 撮った写真をアルバムに保存
+    // SaveボタンのAction: 撮った写真をアルバムに保存
     @IBAction func SaveButton(_ sender: Any) {
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
         dismiss(animated: true, completion: nil)
     }
-    
+    // CropボタンのAction: Crop用Viewに飛ぶ
+    @IBAction func CropButton(_ sender: Any) {
+        performSegue(withIdentifier: "Crop_Segue", sender: nil)
+    }
+   
     
     
     /*

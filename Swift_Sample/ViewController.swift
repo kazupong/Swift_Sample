@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button: UIButton!
     
     @IBAction func Button_Action(_ sender: Any) {
-        // performSegue(withIdentifier: "showPhoto_Segue", sender: nil)
         let settings = AVCapturePhotoSettings()
         photoOutput?.capturePhoto(with: settings, delegate: self)
     }
